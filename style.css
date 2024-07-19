@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("imagens/pexels-marina-zvada-844583049-23832822.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+}
+.nuvem {
+    height: 20px;
+}
+.big-box {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 20px;
+    height: 28%;
+    width: 80%;
+    max-width: 450px;
+}
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 100px);
+
+
+}
+button {
+   border: none;
+   outline: none;
+   padding: 10px;
+   border-radius: 50px;
+   background-color:#7c7c7c2b ;
+   float: right;
+   cursor: pointer;
+}
+.pesquisa {
+    height: 20px;
+}
+.Caixa-menor {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+h2 {
+    color: #ffff;;
+    font-size: 28px;
+    font-weight: 300;
+
+}
+.temp {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 22px;
+}
+.prediction-text {
+    color: #ffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.umidade {
+    color: #fff;
+    margin-top: 29px;
+}
